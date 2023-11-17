@@ -16,14 +16,14 @@ main {
   border: 1px solid rbga(0, 0, 0, 0.1);
   border-radius: 15px;
   margin-right: 10px;
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.item-list__img img{
-    width:50px
+.item-list__img img {
+  width: 50px;
 }
 .item-list__info {
   padding-top: 20px;
@@ -34,11 +34,10 @@ main {
   align-items: start;
 }
 
+.item-list__info div {
+  margin-top: 10px;
+}
 
-.item-list__info div{
-    margin-top:10px;
-}
-}
 .item-list__info-meta {
   font-size: smaller;
   color: rgba(0, 0, 0, 0.5);
@@ -48,21 +47,20 @@ main {
   font-weight: bold;
 }
 
-.write-btn{
-    background-color:var(--button-primary);
-    color:white;
-    padding:20px 25px 20px 25px;
-    border-radius:30px;
-    position:fixed;
-    bottom:130px;
-    right:20px;
-    font-size: 20px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    cursor:pointer;
-    transition:all 0.2s ease-in-out;
-
+.write-btn {
+  background-color: var(--button-primary);
+  color: white;
+  padding: 20px 25px 20px 25px;
+  border-radius: 30px;
+  position: fixed;
+  bottom: 130px;
+  right: 20px;
+  font-size: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 
-.write-btn:hover{
-  background-color:var(--button-hover);
+.write-btn:hover {
+  background-color: var(--button-hover);
 }
