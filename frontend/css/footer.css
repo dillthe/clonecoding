@@ -47,7 +47,7 @@ footer {
   width: 35px;
 }
 
-.footer-icons__img:hover {
+.footer-icons:hover .footer-icons__img:hover {
   width: 35px;
   animation: 1s icons-doong-doong;
 }
