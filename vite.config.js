@@ -6,4 +6,4 @@ export default defineConfig({
   plugins: [svelte()],
 });
 
-vite.config.js;
+//vite.config.js;
